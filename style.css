@@ -1,0 +1,148 @@
+
+#Controle{
+    position: absolute;
+    align: center;
+}
+
+#Corpo {
+    position: absolute;
+    z-index: 0;
+    top: 0px; left: 185px;
+    background-color: #C5C6CA;
+    width: 570px; height: 300px;
+}
+
+#CirEsq {
+    position: absolute;
+    z-index: 1;
+    top: 0px; left: 0px;
+    background-color: #C5C6CA;
+    width: 370px; height: 370px;
+    border-radius: 200px;
+}
+
+#CirDir {
+    z-index: 1;
+    position: absolute;
+    top: 0px; left: 570px;
+    background-color: #C5C6CA;
+    width: 370px; height: 370px;
+    border-radius: 200px;
+}
+
+#Dpad {
+    position: absolute;
+    z-index: 2;
+    top: 85px; left: 85px;
+    width: 200px; height: 200px;
+    border: solid #96979C 5px;
+    border-radius: 200px;
+}
+
+#DpadY{
+    position: absolute;
+    z-index: 3;
+    top: 30px; left: 78px;
+    width: 44px; height: 140px;
+    background-color: #5E5F64;
+    border-radius: 10px;
+}
+
+#DpadX{
+    position: absolute;
+    z-index: 3;
+    top: 78px; left: 30px;
+    width: 140px; height: 44px;
+    background-color: #5E5F64;
+    border-radius: 10px;
+}
+
+#start{
+    position: absolute;
+    z-index: 1;
+    top: 210px; left: 230px;
+    width: 20px; height: 55px;
+    background-color: #5E5F64;
+    border-radius: 10px;
+    transform: rotate(50deg);
+}
+
+#select{
+    position: absolute;
+    z-index: 1;
+    top: 210px; left: 320px;
+    width: 20px; height: 55px;
+    background-color: #5E5F64;
+    border-radius: 10px;
+    transform: rotate(50deg);
+}
+
+#Botoes {
+    position: absolute;
+    z-index: 2;
+    top: 20px; left: 20px;
+    width: 330px; height: 330px;
+    background-color: #6F7277;
+    border-radius: 350px;
+}
+
+#Bordas {
+    position: absolute;
+    z-index: 3;
+    top: 160px; left: 15px;
+    transform: rotate(320deg);
+}
+
+#XY {
+    position: absolute;
+    z-index: 4;
+    top: 0px; left: 0px;
+    width: 220px; height: 80px;
+    background-color: #C5C6CA;
+    border-radius: 55px;
+}
+
+#AB {
+    position: absolute;
+    z-index: 4;
+    top: 120px; left: 10px;
+    width: 220px; height: 80px;
+    background-color: #C5C6CA;
+    border-radius: 55px;
+}
+
+#X {
+    position: absolute;
+    z-index: 5;
+    top: 5px; right: 5px;
+    width: 70px; height: 70px;
+    background-color: #0246AB;
+    border-radius: 70px;
+}
+
+#Y {
+    position: absolute;
+    z-index: 5;
+    top: 5px; left: 5px;
+    width: 70px; height: 70px;
+    background-color: #278958;
+    border-radius: 70px;
+}
+
+#A {
+    position: absolute;
+    z-index: 5;
+    top: 5px; right: 5px;
+    width: 70px; height: 70px;
+    background-color: #A50E1F;
+    border-radius: 70px;
+}
+
+#B {
+    position: absolute;
+    z-index: 5;
+    top: 5px; left: 5px;
+    width: 70px; height: 70px;
+    background-color: #CEAF3A;
+    border-radius: 70px;
+}
